@@ -9,10 +9,9 @@
   "keywords": [
     "api",
     "pets",
-    "products",
-    "express"
+    "products"
   ],
-  "author": "Your Name",
+  "author": "Zynovatex",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"

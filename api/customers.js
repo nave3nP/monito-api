@@ -1,7 +1,4 @@
-const express = require('express');
-const router = express.Router();
-
-router.get('/customers', (req, res) => {
+export default function handler(req, res) {
   const customers = [
     { name: 'John Doe', pet: 'Shiba Inu' },
     { name: 'Jane Smith', pet: 'Poodle Tiny Sepia' },
@@ -9,6 +6,4 @@ router.get('/customers', (req, res) => {
     { name: 'Sarah Connor', pet: 'Alaskan Malamute Grey' },
   ];
   res.status(200).json(customers);
-});
-
-module.exports = router;
+}

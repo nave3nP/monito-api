@@ -1,7 +1,4 @@
-const express = require('express');
-const router = express.Router();
-
-router.get('/products', (req, res) => {
+export default function handler(req, res) {
   const products = [
     {
       id: 'PR001',
@@ -23,6 +20,4 @@ router.get('/products', (req, res) => {
     },
   ];
   res.status(200).json(products);
-});
-
-module.exports = router;
+}
