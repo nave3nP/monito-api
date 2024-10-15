@@ -1,0 +1,20 @@
+{
+  "name": "monito-api",
+  "version": "1.0.0",
+  "description": "A simple API for Monito's pet-related services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "api",
+    "pets",
+    "products",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
